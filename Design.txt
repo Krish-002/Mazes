@@ -1,0 +1,45 @@
+
+To run the code:
+  at Line 924, 
+  this.maze2 = new Maze(20, 20, false, false, false);
+  
+  the first parameter is the width of the maze and the 2nd parameter is the height,
+  change it to play around with mazes of different sizes.
+  
+  
+  Then, using this code block at Line 1089 run the code.
+  
+  void testBigBang(Tester t) {
+    this.initData();
+    this.maze2.bigBang(500, 500, 0.005);
+  }
+  
+  adjust the tick-rate as per how you would like it. (Use a smaller tick rate with a bigger maze)
+  
+  
+  
+  How to play:
+  
+  After running it, a Scene with 3 options would appear:
+  1) DFS
+  2) BFS
+  3) PLAY YOURSELF
+  
+  if you press DFS or BFS:
+  
+  the program will create a maze, by removing edges at every tick, 
+  once it is created it will solve the maze (in red) and give you the shortest path (in pink).
+  
+  at any given point press 'r' to restart the maze
+  
+  
+  if you press PLAY YOURSELF, wait for the maze to be created
+  then, using your arrow keys move around the maze to reach the colored block
+  at the bottom right corner.
+  
+  after you reach the block, press any of the arrow keys
+  and the end scene will  be displayed with the number of your wrong moves.
+  
+  again, at any given point press 'r' to restart the maze.
+  
+  
